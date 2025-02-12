@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group input, .input-group select {
+    height: 45px;
+    font-size: 16px;
+    margin-right: 5px;
+    flex-grow: 1;
+}
+
+#addTaskButton {
+    background: #ffdb58;
+    color: black;
+    font-weight: bold;
+    height: 45px;
+    font-size: 16px;
+    margin-left: auto;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #2a2a2a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.button-group {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    transition: 0.3s;
+}
+
+.btn-warning {
+    background: #28a745;
+    color: white;
+}
+
+.btn-danger {
+    background: #ff4d4d;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
